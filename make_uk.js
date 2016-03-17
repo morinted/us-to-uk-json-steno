@@ -17,8 +17,7 @@ const staticUk =
   , 'TKEUFK/AO*ET': 'diskette'
   , 'TKPWRA*EU': 'gray'
   , 'TKRA*FT': 'draught'
-  , 'TO*PB': 'tonne'
-  , 'TOPB': 'ton'
+  , 'TO*PB': 'ton'
   }
 
 const usWords = readFileSync('wordlists/us', 'utf-8')
