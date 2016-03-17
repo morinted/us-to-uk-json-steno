@@ -5,7 +5,20 @@ import { readFileSync } from 'fs'
 const staticUk =
   { 'KH*EBG': 'cheque'
   , 'KH*EBGS': 'cheques'
+  , 'KHEBG': 'check'
+  , 'PHUPL': 'mum'
+  , 'PRA*PL': 'program'
+  , 'SKWRAE*UL': 'gaol'
+  , 'SPELT': 'spelt'
+  , 'TAO*EUR': 'tyre'
+  , 'TAOEUR': 'tire'
+  , 'TK*EUFK/AO*ET': 'diskette'
+  , 'TKAOEUL/O*G': 'dialog'
+  , 'TKEUFK/AO*ET': 'diskette'
+  , 'TKPWRA*EU': 'gray'
   , 'TKRA*FT': 'draught'
+  , 'TO*PB': 'tonne'
+  , 'TOPB': 'ton'
   }
 
 const usWords = readFileSync('wordlists/us', 'utf-8')
